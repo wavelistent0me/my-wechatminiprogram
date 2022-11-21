@@ -20,4 +20,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button type="primary" bindtap="goDateTimer">跳转日期时间选择器</button>
 </view>

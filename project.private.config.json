@@ -1,0 +1,23 @@
+{
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/dateTimer/dateTimer",
+                    "pathName": "pages/dateTimer/dateTimer",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
