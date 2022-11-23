@@ -1,0 +1,320 @@
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
+.spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+.justifyEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+.alignEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.preWrap {
+    white-space: pre-wrap
+}
+
+.relative {
+    position: relative;
+}
+
+.fontBold {
+    font-weight: bold;
+}
+.fontBlack40 {
+    color: #333333;
+    font-size: 40px;
+}
+.fontBlack36 {
+    color: #333333;
+    font-size: 36px;
+}
+.fontSize30 {
+    color: #333333;
+    font-size: 30px;
+}
+.fontBlack28 {
+    color: #333333;
+    font-size: 28px;
+}
+.fontSize24 {
+    color: #333333;
+    font-size: 24px;
+}
+.fontSize20 {
+    color: #333333;
+    font-size: 20px;
+}
+.fontSize18 {
+    color: #333333;
+    font-size: 18px;
+}
+.fontSize16 {
+    color: #333333;
+    font-size: 16px;
+}
+.fontSize14 {
+    color: #333333;
+    font-size: 14px;
+}
+.fontSize12 {
+    color: #333333;
+    font-size: 12px;
+}
+
+.colorWhite {
+    color: #ffffff;
+}
+.colorGray {
+    color: #bababa;
+}
+.colorDeepGray {
+    color: #8e8e8e;
+}
+.colorGreen {
+    color: #8DB72B;
+}
+.colorRed {
+    color: #ff0000;
+}
+.colorOrange {
+    color: #ff6e20;
+}
+.colorPink {
+    color: #fb7299;
+}
+
+.backgroundWhite {
+    background-color: #ffffff;
+}
+.backgroundBlack {
+    background-color: #000000;
+}
+.backgroundGray {
+    background-color: #ececec;
+}
+.backgroundOrange {
+    background-color: #ff6e20;
+}
+.backgroundGreen {
+    background-color: #8DB72B;
+}
+.backgroundPink {
+    background-color: #fb7299;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.marginTop20 {
+    margin-top: 20px;
+}
+.marginTop30 {
+    margin-top: 30px;
+}
+.marginTop40 {
+    margin-top: 40px;
+}
+
+.marginRight10 {
+    margin-right: 10px;
+}
+.marginRight20 {
+    margin-right: 20px;
+}
+
+.marginLeft5 {
+    margin-left: 5px;
+}
+.marginLeft10 {
+    margin-left: 10px;
+}
+.marginLeft20 {
+    margin-left: 20px;
+}
+.marginLeft200 {
+    margin-left: 200px;
+}
+
+.padding5 {
+    padding:5px;
+}
+.padding10 {
+    padding:10px;
+}
+.padding15 {
+    padding:15px;
+}
+.padding30 {
+    padding: 30px;
+}
+.padding40 {
+    padding:40px;
+}
+
+.paddingX10 {
+    padding: 0 10px;
+}
+.paddingX15 {
+    padding: 0 15px;
+}
+.paddingX20 {
+    padding: 0 20px;
+}
+
+.paddingY5 {
+    padding: 5px 0;
+}
+.paddingY10 {
+    padding: 10px 0;
+}
+.paddingY20 {
+    padding: 20px 0;
+}
+.padding20 {
+    padding:20px;
+}
+.paddingY40 {
+    padding: 40px 0;
+}
+
+.paddingLeft60 {
+    padding-left: 60px;
+}
+
+.paddingBottom10 {
+    padding-bottom: 10px;
+}
+.paddingBottom20 {
+    padding-bottom: 20px;
+}
+.paddingBottom40 {
+    padding-bottom: 40px;
+}
+.paddingBottom80 {
+    padding-bottom: 80px;
+}
+.paddingBottom100 {
+    padding-bottom: 80px;
+}
+.paddingBottom120 {
+    padding-bottom: 120px;
+}
+.paddingBottom150 {
+    padding-bottom: 150px;
+}
+
+.padding510 {
+    padding: 5px 10px;
+}
+.padding520 {
+    padding: 5px 20px;
+}
+.padding1020 {
+    padding: 10px 20px;
+}
+
+.width25 {
+    width: 25%;
+}
+.width100 {
+    width: 100%;
+}
+.width345 {
+    width: 345px;
+}
+.width690 {
+    width: 690px;
+}
+.width1400 {
+    width: 1400px;
+}
+.height100 {
+    height: 100%;
+}
+
+.borderNone {
+    border: none;
+}
+.borderPink {
+    border: 1px solid #fb7299;
+}
+.borderOrange {
+    border: 1px solid #ff6e20;
+}
+.borderBottom {
+    border-bottom: 1px solid #eee;
+}
+.borderShadow {
+    box-shadow: 0px 0px 10px 5px #e8e7e7;
+}
+
+.borderRadius5 {
+    border-radius: 5PX;
+}
+.borderRadius10 {
+    border-radius: 10PX;
+}
+.borderRadius50 {
+    border-radius: 50%;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ellipsis2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.overflowx {
+    overflow-x : auto;
+}
