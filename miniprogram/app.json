@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/dateTimer/dateTimer",
+    "pages/OCR/OCR",
     "pages/getOpenId/index",
     "pages/getMiniProgramCode/index",
     "pages/deployService/index",
@@ -17,10 +19,9 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "小程序 云开发",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2",
-  "lazyCodeLoading": "requiredComponents"
+  "style": "v2"
 }

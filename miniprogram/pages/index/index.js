@@ -24,7 +24,8 @@ Page({
       //   title: '发送订阅消息',
       // }
     ]
-    }, {
+    },
+      {
       title: '数据库',
       tip: '安全稳定的文档型数据库',
       showItem: false,
@@ -107,6 +108,12 @@ Page({
     wx.navigateTo({
       url: `/pages/${e.currentTarget.dataset.page}/index?envId=${this.data.selectedEnv.envId}`,
     });
+  },
+
+  jumpPage2(e) {
+    wx.navigateTo({
+      url: `/pages/${e.currentTarget.dataset.page}/${e.currentTarget.dataset.page}`
+    })
   },
 
   onClickDatabase(powerList) {

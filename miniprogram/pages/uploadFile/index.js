@@ -11,6 +11,7 @@ Page({
   },
 
   onLoad(options) {
+    console.log(options.envId);
     this.setData({
       envId: options.envId
     });

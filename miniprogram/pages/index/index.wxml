@@ -5,6 +5,10 @@
 
   <view class="top_tip">免鉴权接口调用 免部署后台 高并发</view>
 
+  <button type="primary" bindtap="jumpPage2" data-page="dateTimer">dateTimer</button>
+
+  <button class="marginTop10" type="primary" bindtap="jumpPage2" data-page="OCR">OCR</button>
+
   <view class="power" wx:key="title" wx:for="{{powerList}}" wx:for-item="power">
     <view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo">
       <view class="power_info_text">
@@ -28,5 +32,4 @@
   <view class="environment" bindtap="onChangeShowEnvChoose">当前环境 {{ selectedEnv.alias }}</view>
 
   <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
-
 </view>
